@@ -1,0 +1,13 @@
+# name: python workflow
+# on:
+#     push:
+#         paths:
+#             -'**.py'
+# jobs:
+#     pep8:
+#         name: pylint auto pep8 checking
+#         runs-on: ubuntu-latest
+
+#     test:
+#         name: check tests
+#         runs-on: ubuntu-latest

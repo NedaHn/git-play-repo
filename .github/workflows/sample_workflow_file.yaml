@@ -34,13 +34,23 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo what is in this directory?
+          echo test, and deploy your project.
+          echo Lets know about the conainer:
+          echo 1-what is in this directory?
           ls -a
           echo
-          echo python version:
+          echo 2-python version:
           python --version
           echo
-          echo git version:
+          echo 3-git version:
           git --version
           echo
-          echo test, and deploy your project.
+          echo 4-what is workspace location?
+          echo RUNNER_WORKSPACE
+          echo 5-Who is running this script?
+          whoami
+          echo
+          echo 6-How is the disk laid out?
+          df
+          echo 7-What environment variables are available?
+          env
